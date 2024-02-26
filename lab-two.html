@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h5, h6 {
+            text-align: center;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .service-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .service {
+            text-align: center;
+            border: 1px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .service p {
+            text-align: center;
+            border: 1px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Welcome to Software Design Website</h3>
+    </header>
+
+    <section>
+        <h5>About Us</h5>
+        <h6>We are a company dedicated to providing excellent services to our customers</h6>
+        <img src="img1.jpg" width="600" height="400" class="center" alt="About Us Image">
+    </section>
+
+    <h5>Our Services</h5>
+
+    <section class="service-container">
+        <!-- Block One -->
+        <div class="service">
+            <h5>Web Development</h5>
+            <p>We specialize in creating responsive and user-friendly websites.</p>
+            <img src="img1.jpg" width="300" height="200" class="center" alt="Web Development Image">
+        </div>
+
+        <!-- Block Two -->
+        <div class="service">
+            <h5>Graphic Design</h5>
+            <p>Our talented designers can bring your ideas to life with stunning visuals.</p>
+            <img src="img1.jpg" width="300" height="200" class="center" alt="Graphic Design Image">
+        </div>
+    </section>
+</body>
+<footer>
+    <p>@2014 The Lucky Company All rights reserved.</p>
+</footer>
+</html>
